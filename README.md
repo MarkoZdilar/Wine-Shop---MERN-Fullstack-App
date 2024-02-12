@@ -7,11 +7,14 @@ _Web shop app with user authentication, CRUD operations over products, producers
 To run locally this project, start MongoDB on 27017 port.<br>
 After that, go to Frontend and run "npm i" command in terminal, and the same should be done within Backend folder. <br>
 Then, node_modules folder will appear and our project can be started. To start the project, run "npm start" from each Frontend and Backend folders. <br>
+<br>
 And that's it, you are ready to go! <br>
 <br>
  - - - -
 <br>
-### About the WineZ ###
+<br>
+## About the WineZ ##
+<br>
 
 Name of this web shop app is ***WineZ 🍇***, it's made as a seminar paper as part of my faculty obligations. <br>
 Project is separated in 2 main parts:
@@ -23,6 +26,7 @@ Project is separated in 2 main parts:
 There is 2 main roles on this page:
 * Administrator,
 * User.
+
 <br>
 User authentication is implemented on backend using JWT in which UserID and UserRole are stored.<br>
 It's done with httpOnly requests, which prevents frontend part of the app to manipulate with token, which means that it can be done only by sending the token on backend where informations from token will be extraced using JWT_SECRET key. This WoW ensures safe manipulation over user data.
