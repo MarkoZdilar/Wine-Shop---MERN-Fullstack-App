@@ -1,0 +1,127 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1.2em 0;
+}
+
+.brand {
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  z-index: 2;
+}
+
+.brand a {
+  font-family: "Indie Flower", cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 2.5rem !important;
+}
+
+.brand:hover {
+  color: orange;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .brand {
+    position: static;
+    margin: 0 auto;
+  }
+
+  .nav-links {
+    justify-content: space-around;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 2.3px;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.cart-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navbar .logout-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.navbar .logout-link:hover {
+  color: red;
+}

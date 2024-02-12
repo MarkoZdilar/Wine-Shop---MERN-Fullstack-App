@@ -1,0 +1,81 @@
+.producer-card {
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+  flex-direction: column;
+}
+
+.producer-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.producer-logo {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.producer-details {
+  flex: 1;
+  text-align: center;
+}
+
+.producer-details h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.producer-details p {
+  margin: 5px 0;
+}
+
+.producer-details strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.error-message {
+  color: red;
+  margin: 10px 0;
+}
+
+.delete-producer-button {
+  margin-top: 10px;
+  background-color: #ff4136;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delete-producer-button:hover {
+  background-color: #d90000;
+}
+
+.update-button {
+  margin-left: 10px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.update-button:hover {
+  background-color: #e0a800;
+}

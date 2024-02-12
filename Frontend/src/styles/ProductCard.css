@@ -1,0 +1,148 @@
+.product-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.product-card {
+  width: 70%;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: black;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-left,
+.product-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image,
+.producer-logo-pc {
+  max-width: 210px;
+  max-height: 210px;
+  height: auto;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+.product-middle {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.product-details {
+  width: 100%;
+  text-align: center;
+}
+
+.product-card-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.product-details h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.product-details strong {
+  font-weight: bold;
+}
+
+.delete-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff4d4f;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+  align-self: center;
+}
+
+.delete-button:hover {
+  background-color: #ff7875;
+}
+
+.product-right {
+  flex: 1;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.producer-logo-pc {
+  width: 60%;
+  height: 60%;
+  margin-left: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgb(177, 177, 177);
+}
+
+.extra-content-product {
+  padding-top: 20px;
+  height: 100px;
+}
+
+.delete-button,
+.update-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+  margin: 0 5px;
+}
+
+.delete-button {
+  background-color: #ff4d4f;
+}
+
+.delete-button:hover {
+  background-color: #ff7875;
+}
+
+.update-button {
+  background-color: #ffc107;
+}
+
+.update-button:hover {
+  background-color: #e0a800;
+}
