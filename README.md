@@ -17,7 +17,7 @@ The name of this web shop app is **WineZ 🍇**. It was created as a seminar pap
 * Backend
 * VinotekaDB (which is manipulated through backed code).
 
-There are 2 main roles on this page:
+There are 3 main roles on this page:
 * Administrator
 * User
 
