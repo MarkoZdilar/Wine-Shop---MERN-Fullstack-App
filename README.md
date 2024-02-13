@@ -12,12 +12,12 @@ To run this project locally, start MongoDB on port 27017. Then, navigate to the 
 
 ## About WineZ
 
-The name of this web shop app is **WineZ 🍇**. It was created as a seminar paper as part of my faculty obligations. The project is separated into 2 main parts:
+The name of this web shop app is **WineZ 🍇**. It was created as a seminar paper as part of my faculty obligations. The project is separated into 3 main parts:
 * Frontend
 * Backend
 * VinotekaDB (which is manipulated through backed code).
 
-There are 3 main roles on this page:
+There are 2 main roles on this page:
 * Administrator
 * User
 
